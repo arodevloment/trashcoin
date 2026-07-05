@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import bestunPhoto from "@/assets/bestun-photo.png";
 
 const BSCSCAN_URL =
   "https://bscscan.com/token/0x9757f7552121CC67ba291c34fAf5C53ECDf1228D";
@@ -350,16 +351,16 @@ function Team() {
 
         <div className="max-w-sm">
           <div className="overflow-hidden rounded-lg border border-white/10 bg-white/[0.02] transition-colors hover:border-white/25">
-            <div className="flex aspect-[4/3] items-center justify-center border-b border-white/10 bg-white/[0.03]">
-              <div className="flex h-24 w-24 items-center justify-center rounded-full border border-white/15 bg-white/5">
-                <span className="font-mono text-3xl font-bold text-white/40">
-                  B
-                </span>
-              </div>
+            <div className="flex aspect-[4/3] items-center justify-center overflow-hidden border-b border-white/10 bg-white/[0.03]">
+              <img
+                src={c:\Users\karoy\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C0185BDCF3AC6E0AE5602753E63322322D2DFF6B\transfers\2026-27\WhatsApp Image 2026-07-06 at 00.40.33.jpeg}
+                alt="Bestun, Founder of TRASH COIN"
+                className="h-full w-full object-cover"
+              />
             </div>
 
             <div className="p-7">
-              <h3 className="text-xl font-bold">Aro</h3>
+              <h3 className="text-xl font-bold">Bestun</h3>
               <p className="mt-1 text-sm uppercase tracking-wide text-white/40">
                 Founder
               </p>
@@ -369,10 +370,10 @@ function Team() {
               </p>
 
               <a
-                href="https://github.com/arodevloment"
+                href="https://www.linkedin.com/in/bestun"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Aro's github profile"
+                aria-label="Bestun's LinkedIn profile"
                 className="mt-6 inline-flex items-center gap-2 rounded-md border border-white/20 px-4 py-2.5 text-sm font-semibold text-white/80 transition-colors hover:border-white/40 hover:bg-white/5 hover:text-white"
               >
                 <svg
@@ -382,7 +383,7 @@ function Team() {
                 >
                   <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z" />
                 </svg>
-                Github
+                LinkedIn
               </a>
             </div>
           </div>
