@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const BSCSCAN_URL =
   "https://bscscan.com/token/0x9757f7552121CC67ba291c34fAf5C53ECDf1228D";
-const TELEGRAM_URL = "https://t.me/trash_coin_tshc";
+const TELEGRAM_URL = "https://t.me/trash_coin9";
 const CONTRACT_ADDRESS = "0x9757f7552121CC67ba291c34fAf5C53ECDf1228D";
 
 const NAV_LINKS = [
@@ -39,7 +39,7 @@ const TOKENOMICS = [
 const SOCIALS = [
   { label: "Telegram", href: TELEGRAM_URL },
   { label: "BscScan", href: BSCSCAN_URL },
-  { label: "X (Twitter)", href: "https://x.com/trashcoin_tshc" },
+  { label: "X (Twitter)", href: "https://x.com/Trash_Coin2026" },
 ];
 
 function useScrollSpy(ids: string[]) {
@@ -243,6 +243,25 @@ function Hero() {
             Contract Address
           </p>
           <CopyAddressButton />
+
+          <div className="mt-4 flex flex-col gap-3 sm:flex-row">
+            <a
+              href={BSCSCAN_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex flex-1 items-center justify-center rounded-md bg-white px-5 py-3 text-sm font-bold uppercase tracking-wide text-black transition-colors hover:bg-white/85"
+            >
+              Buy TSHC DEX
+            </a>
+            <a
+              href="https://app.uniswap.org/explore/tokens/bnb/0x9757f7552121cc67ba291c34faf5c53ecdf1228d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex flex-1 items-center justify-center rounded-md border border-white/25 px-5 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:border-white/50 hover:bg-white/5"
+            >
+              Buy TSHC Uniswap
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -359,7 +378,7 @@ function Team() {
             </div>
 
             <div className="p-7">
-              <h3 className="text-xl font-bold">Bestun</h3>
+              <h3 className="text-xl font-bold">Aro</h3>
               <p className="mt-1 text-sm uppercase tracking-wide text-white/40">
                 Founder
               </p>
@@ -369,10 +388,10 @@ function Team() {
               </p>
 
               <a
-                href="https://www.linkedin.com/in/bestun"
+                href="https://github.com/arodevloment"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Bestun's LinkedIn profile"
+                aria-label="Aro's GitHub profile"
                 className="mt-6 inline-flex items-center gap-2 rounded-md border border-white/20 px-4 py-2.5 text-sm font-semibold text-white/80 transition-colors hover:border-white/40 hover:bg-white/5 hover:text-white"
               >
                 <svg
@@ -380,9 +399,9 @@ function Team() {
                   viewBox="0 0 24 24"
                   className="h-4 w-4 fill-current"
                 >
-                  <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z" />
+                  <path d="M12 .5C5.73.5.98 5.24.98 11.5c0 4.97 3.24 9.19 7.73 10.68.56.1.77-.24.77-.54 0-.27-.01-1.15-.02-2.09-3.14.68-3.8-1.34-3.8-1.34-.51-1.31-1.25-1.66-1.25-1.66-1.02-.7.08-.68.08-.68 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.16-3.04-.12-.29-.5-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.8 10.8 0 0 1 5.72 0c2.18-1.47 3.13-1.16 3.13-1.16.62 1.57.23 2.73.11 3.02.73.79 1.16 1.8 1.16 3.04 0 4.35-2.65 5.31-5.17 5.59.4.35.76 1.03.76 2.08 0 1.5-.01 2.71-.01 3.08 0 .3.2.65.78.54A10.51 10.51 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5z" />
                 </svg>
-                LinkedIn
+                GitHub
               </a>
             </div>
           </div>
