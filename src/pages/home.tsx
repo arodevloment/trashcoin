@@ -369,10 +369,10 @@ function Team() {
               </p>
 
               <a
-                href="https://www.linkedin.com/in/bestun"
+                href="https://github.com/arodevloment"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Bestun's LinkedIn profile"
+                aria-label="Aro's Github profile"
                 className="mt-6 inline-flex items-center gap-2 rounded-md border border-white/20 px-4 py-2.5 text-sm font-semibold text-white/80 transition-colors hover:border-white/40 hover:bg-white/5 hover:text-white"
               >
                 <svg
