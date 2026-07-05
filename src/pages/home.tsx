@@ -15,23 +15,23 @@ const NAV_LINKS = [
 const TOKENOMICS = [
   {
     label: "Total Supply",
-    value: "1,000,000,000",
+    value: "10,000",
     suffix: "TSHC",
     percent: 100,
     detail: "Fixed supply, minted once. No further tokens will ever be created.",
   },
   {
     label: "Liquidity",
-    value: "60%",
+    value: "40%",
     suffix: "of supply",
-    percent: 60,
+    percent: 40,
     detail: "Locked in the primary PancakeSwap pool to secure trading depth.",
   },
   {
     label: "Community",
-    value: "40%",
+    value: "60%",
     suffix: "of supply",
-    percent: 40,
+    percent: 60,
     detail: "Allocated to holders, airdrops, and community growth initiatives.",
   },
 ];
