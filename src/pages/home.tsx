@@ -353,7 +353,7 @@ function Team() {
           <div className="overflow-hidden rounded-lg border border-white/10 bg-white/[0.02] transition-colors hover:border-white/25">
             <div className="flex aspect-[4/3] items-center justify-center overflow-hidden border-b border-white/10 bg-white/[0.03]">
               <img
-                src={c:\Users\karoy\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C0185BDCF3AC6E0AE5602753E63322322D2DFF6B\transfers\2026-27\WhatsApp Image 2026-07-06 at 00.40.33.jpeg}
+                src={bestunPhoto}
                 alt="Bestun, Founder of TRASH COIN"
                 className="h-full w-full object-cover"
               />
