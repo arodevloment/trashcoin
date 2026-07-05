@@ -359,7 +359,7 @@ function Team() {
             </div>
 
             <div className="p-7">
-              <h3 className="text-xl font-bold">Bestun</h3>
+              <h3 className="text-xl font-bold">Aro</h3>
               <p className="mt-1 text-sm uppercase tracking-wide text-white/40">
                 Founder
               </p>
