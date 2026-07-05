@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import bestunPhoto from "@/assets/bestun-photo.png";
 
 const BSCSCAN_URL =
   "https://bscscan.com/token/0x9757f7552121CC67ba291c34fAf5C53ECDf1228D";
@@ -351,12 +350,12 @@ function Team() {
 
         <div className="max-w-sm">
           <div className="overflow-hidden rounded-lg border border-white/10 bg-white/[0.02] transition-colors hover:border-white/25">
-            <div className="flex aspect-[4/3] items-center justify-center overflow-hidden border-b border-white/10 bg-white/[0.03]">
-              <img
-                src={c:\Users\karoy\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C0185BDCF3AC6E0AE5602753E63322322D2DFF6B\transfers\2026-27\WhatsApp Image 2026-07-06 at 00.40.33.jpeg}
-                alt="Bestun, Founder of TRASH COIN"
-                className="h-full w-full object-cover"
-              />
+            <div className="flex aspect-[4/3] items-center justify-center border-b border-white/10 bg-white/[0.03]">
+              <div className="flex h-24 w-24 items-center justify-center rounded-full border border-white/15 bg-white/5">
+                <span className="font-mono text-3xl font-bold text-white/40">
+                  B
+                </span>
+              </div>
             </div>
 
             <div className="p-7">
