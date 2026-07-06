@@ -424,10 +424,10 @@ function Footer() {
               Get in touch
             </h2>
             <a
-              href="mailto:info@trashcoin.site"
+              href="mailto:aro@trashcoin.site"
               className="mt-4 inline-block text-lg text-white/70 underline decoration-white/20 underline-offset-4 transition-colors hover:text-white hover:decoration-white/60"
             >
-              info@trashcoin.site
+              aro@trashcoin.site
             </a>
           </div>
 
