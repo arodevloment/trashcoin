@@ -1,3 +1,36 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="180" height="180" rx="36" fill="#FF3C00"/>
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- باگراوندی ڕەش بە گۆشەی چەماوە -->
+  <rect width="180" height="180" rx="36" fill="#000000"/>
+  
+  <defs>
+    <!-- ڕەنگە تێکەڵەکان بۆ ناوەڕاستی پیتەکان (مۆر، سپی، زێڕین، ڕەش) -->
+    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d004b"/>
+      <stop offset="25%" stop-color="#9a63cc"/>
+      <stop offset="45%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#e2c875"/>
+      <stop offset="80%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#4a148c"/>
+    </linearGradient>
+
+    <!-- ڕەنگی زێڕین و بریقەدار بۆ چوارچێوەی پیتەکان -->
+    <linearGradient id="goldEdge" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#996515"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFF8DC"/>
+    </linearGradient>
+
+    <!-- دروستکردنی سێبەر بۆ ئەوەی وەک 3D دەربکەوێت -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="1"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(90, 115) scale(1.15)" filter="url(#shadow)">
+    <!-- هێڵی زێڕینی دەرەوەی پیتەکان -->
+    <text font-family="'Times New Roman', Times, serif" font-size="65" font-weight="bold" text-anchor="middle" fill="none" stroke="url(#goldEdge)" stroke-width="4" stroke-linejoin="round" letter-spacing="-3">TSHC</text>
+    
+    <!-- ڕەنگە سەدەفییەکەی ناوەوەی پیتەکان -->
+    <text font-family="'Times New Roman', Times, serif" font-size="65" font-weight="bold" text-anchor="middle" fill="url(#mainGrad)" letter-spacing="-3">TSHC</text>
+  </g>
 </svg>
